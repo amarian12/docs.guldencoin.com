@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: rgb(15, 166, 188);
+    color: #f08239;
 }
 
 #footer {
@@ -60,9 +60,9 @@ a:hover {
 }
 
 nav.navbar {
-    background: none repeat scroll 0% 0% rgb(96,210,211);
-    border-top: 4px solid rgb(15, 166, 188);
-    border-bottom: 1px solid rgb(15, 166, 188);
+    background: none repeat scroll 0% 0% #f8f8f8;
+    border-top: 4px solid #003e7e;
+    border-bottom: 1px solid #003e7e;
     opacity: .97;
 }
 
@@ -72,8 +72,12 @@ nav.navbar {
     vertical-align: -4px;
 }
 
+.navbar-brand {
+    padding: 3px;
+}
+
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-    color: white !important;
+    color: black !important;
 }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
     border-top-color: white;
@@ -83,22 +87,22 @@ nav.navbar {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(15, 166, 188);
+    background-color: #f08239;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: rgb(15, 166, 188);
+    background-color: #f08239;
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     color: rgb(255, 255, 255);
     text-decoration: none;
     outline: 0px none;
-    background-color: rgb(15, 166, 188);
+    background-color: #f08239;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: rgb(15, 166, 188);
+    background-color: #f08239;
 }
 .navbar-inverse .navbar-toggle {
     border-color: white;
@@ -109,7 +113,7 @@ nav.navbar {
         color: white !important;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus {
-        background-color: rgb(15, 166, 188);
+        background-color: #f08239;
     }
 }
 
