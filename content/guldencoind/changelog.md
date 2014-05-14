@@ -1,0 +1,19 @@
+---
+title: "Changelog"
+date: "2014-05-14"
+groups: ['guldencoind']
+groups_weight: 80
+---
+
+This page contains the changelog for the original guldencoin software; guldencoin-qt/guldencoind.
+
+### version 1.1.6
+ - Add testnet
+ - Update alert keys
+ - Fix copyright statements in about dialog
+ - Made splash screen readable
+
+### version 1.1.0 - 1.1.5
+ - Add checkpoints
+ - Change KGW/block time
+ - Increment protocol version
