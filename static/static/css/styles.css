@@ -90,7 +90,7 @@ nav.navbar {
     background-color: #f08239;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #f08239;
 }
 
@@ -101,7 +101,7 @@ nav.navbar {
     background-color: #f08239;
 }
 
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #f08239;
 }
 .navbar-inverse .navbar-toggle {
@@ -110,7 +110,7 @@ nav.navbar {
 
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-        color: white !important;
+        color: black !important;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus {
         background-color: #f08239;
