@@ -1,6 +1,6 @@
-## doc.guldencoin.com
+## docs.guldencoin.com
 
-This repository contains the source for the [doc.guldencoin.com](https://doc.guldencoin.com) website.
+This repository contains the source for the [docs.guldencoin.com](https://docs.guldencoin.com) website.
 
 The site is built using [hugo](http://hugo.spf13.com).
 
