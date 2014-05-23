@@ -16,5 +16,5 @@ This page contains the changelog for the original guldencoin software; guldencoi
 
 ### version 1.1.0 - 1.1.5
  - Add checkpoints
- - Change KGW/block time
+ - Fix KGW/block time
  - Increment protocol version
