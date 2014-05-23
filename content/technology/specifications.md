@@ -7,10 +7,10 @@ groups_weight: 5
 
 ## Coin characteristics
 
- - Algorithm: scrypt PoW 
+ - Algorithm: scrypt PoW KGW
  - TX confirmatinos: 6
- - Max coins: 1700 miljoen
- - Pre-mine: 170 miljoen (10%)
+ - Max coins: 1680M
+ - Pre-mine: 170M (~10%)
  - Initial difficulty: 0.00244
  - Block reward: 1000NLG
  - Block time: 150 seconds
@@ -23,6 +23,7 @@ A main and test network are established. The test network can be used to develop
 
 ### Main net
  - port: `9231`
+ - rpc port: `9232`
  - genesis block: `6c5d71a461b5bff6742bb62e5be53978b8dec5103ce52d1aaab8c6a251582f92`
  - protocol magic: `0xfb, 0xc0, 0xb6, 0xdb`
  - seeds: `TODO: seedinfo.guldencoin.com`
