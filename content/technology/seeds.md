@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Seeds"
 date: "2014-05-26"
 groups: ['technology']
 groups_weight: 20
