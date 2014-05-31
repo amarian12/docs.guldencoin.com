@@ -3,9 +3,6 @@ html, body {
 	height: 100%;
 }
 
-/* -------------------------------------------------------------- Top */
-
-
 body {
 	-webkit-text-size-adjust: none;
 	width: 100%;
@@ -22,7 +19,56 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	color: rgb(25,71,86);
 	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+p {
+	margin: 0 0 2em;
+}
+
+#main.container {
+	font-size: 15px;
+	line-height: 130%;
+}
+
+
+h1, h2, h3 {
+	padding-bottom: .3em;
+	padding-top: 1.4em;
+	margin-bottom: .7em;
+}
+
+h1 {
+	font-size: 40px;
+	padding-top: .3em;
+}
+
+h1, h2 {
+	border-bottom: 1px solid #CCC;
+}
+
+pre {
+	background-color: #022b34;
+	color: #e6e6e6;
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 17px;
+	line-height: 1.2;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+a {
+	color: #2b91ae;
+}
+
+a:hover {
+	color: #f08239;
+}
+
+#footer {
+	margin-bottom: 2em;
 }
 
 #nlg-top {
@@ -39,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid #ddd;
 }
 
-.nlg-logo a,.nlg-logo a:active,.nlg-logo a:visited {
+.nlg-logo a, .nlg-logo a:active, .nlg-logo a:visited {
 	position: relative;
 	float: left;
 	display: block;
@@ -85,59 +131,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nlg-menu a:hover {
 	color: #000;
-}
-
-p {
-	margin: 0 0 2em;
-}
-
-#main.container {
-	font-size: 15px;
-	line-height: 130%;
-}
-
-
-h1, h2, h3 {
-	padding-bottom: .3em;
-	padding-top: 1.4em;
-	margin-bottom: .7em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color: rgb(25,71,86);
-	font-family: 'Cabin', "Helvetica Neue", "Helvitica", "Serif";
-}
-
-h1 {
-	font-size: 40px;
-	padding-top: .3em;
-}
-
-h1, h2 {
-	border-bottom: 1px solid #CCC;
-}
-
-pre {
-	background-color: #022b34;
-	color: #e6e6e6;
-	font-family: 'Source Code Pro', sans-serif;
-	font-size: 17px;
-	line-height: 1.2;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-}
-
-a {
-	color: #2b91ae;
-}
-
-a:hover {
-	color: #f08239;
-}
-
-#footer {
-	margin-bottom: 2em;
 }
 
 nav.navbar {
