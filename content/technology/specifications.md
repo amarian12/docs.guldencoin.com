@@ -8,7 +8,7 @@ groups_weight: 10
 ## Coin characteristics
 
  - Algorithm: scrypt PoW KGW
- - TX confirmatinos: 6
+ - TX confirmations: 6
  - Max coins: 1680M
  - Pre-mine: 170M (~10%)
  - Initial difficulty: 0.00244
