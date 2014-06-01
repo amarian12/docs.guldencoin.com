@@ -59,14 +59,6 @@ pre {
 	border-radius: 12px;
 }
 
-a {
-	color: #2b91ae;
-}
-
-a:hover {
-	color: #f08239;
-}
-
 #footer {
 	margin-bottom: 2em;
 }
@@ -118,7 +110,7 @@ a:hover {
 	margin: 0px 0px 0px 15px;
 }
 
-.nlg-menu a,.nlg-menu a:active,.nlg-menu a:visited {
+.nlg-menu a, .nlg-menu a:active, .nlg-menu a:visited {
 	position: relative;
 	float: left;
 	font-size: 100%;
