@@ -104,7 +104,7 @@ a:hover {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) {
-	.logo a,.logo a:active,.logo a:visited { 
+	.nlg-logo a, .nlg-logo a:active, .nlg-logo a:visited { 
 		background-image:url('https://s3-eu-west-1.amazonaws.com/guldencoin.com/logodeveloper@2x.png') !important;
 	}
 }
