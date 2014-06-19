@@ -146,6 +146,10 @@ nav.navbar {
 	border-bottom-color: white;
 }
 
+.navbar .navbar-nav li a {
+	font-size: 1.6em;
+}
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .navbar .navbar-nav li a:hover,
