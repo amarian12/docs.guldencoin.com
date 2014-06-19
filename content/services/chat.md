@@ -6,7 +6,7 @@ groups_weight: 40
 ---
 
 The guldencoin chat is an IRC chat channel on the Tweakers.net IRC servers.
-A webinterface for the chat is available at [chat.guldencoin.com](https://chat.guldencoin.com).
+A webinterface for the chat is available at [chat.guldencoin.com](http://chat.guldencoin.com).
 
  - Server: `irc.tweakers.net`
  - Channel: `#Guldencoin`
