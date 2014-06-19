@@ -7,7 +7,7 @@ groups_weight: 20
 
 
 The GuldenCoin team maintains a number of publicly available nodes that everyone can connect to.
-These so called 'seeds' are monitored. Information about the seeds can be found at [seeds.guldencoin.com](https://seeds.guldencoin.com)
+These so called 'seeds' are [monitored](/services/seeds). Information about the seeds can be found at [seeds.guldencoin.com](https://seeds.guldencoin.com)
 
 ## JSON feed
 
