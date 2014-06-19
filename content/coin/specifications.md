@@ -1,5 +1,5 @@
 ---
-title: "Coin specifications"
+title: "Specifications"
 date: "2014-05-14"
 groups: ['coin']
 groups_weight: 10
