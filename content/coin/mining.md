@@ -1,7 +1,7 @@
 ---
 title: "Mining"
 date: "2014-05-14"
-groups: ['technology']
+groups: ['coin']
 groups_weight: 30
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Seeds"
 date: "2014-05-26"
-groups: ['technology']
+groups: ['coin']
 groups_weight: 20
 ---
 
