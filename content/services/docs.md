@@ -7,6 +7,8 @@ groups_weight: 5
 
 These documentation pages.
 
+## Goal
+Lorem ipsum.
 
 ## Contribute
 
