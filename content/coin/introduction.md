@@ -5,4 +5,4 @@ groups: ['coin']
 groups_weight: 5
 ---
 
-The guldencoin core is based Litecoin with KGW added.
+The guldencoin core is based on Litecoin with KGW added.
