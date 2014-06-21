@@ -48,5 +48,5 @@ addnode=seed-014.guldencoin.nl
 ### Solo mining with Guldencoin-Qt
 
 * Go to "Help" -> "Debug screen" -> "Console".
-* Enter "setgenerate true <cpu>" with <cpu> the amount of cpu's/cores you want to use for mining.
+* Enter "setgenerate true \<cpu\>" with \<cpu\> the amount of cpu's/cores you want to use for mining.
 * Enter "gethashespersec" to see that you are mining.
