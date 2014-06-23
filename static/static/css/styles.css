@@ -65,7 +65,7 @@ pre {
 	margin-bottom: 2em;
 }
 
-#nlg-top {
+.nlg-top {
 	position: relative;
 	float: left;
 	clear: both;
@@ -79,7 +79,7 @@ pre {
 	border-bottom: 1px solid #ddd;
 }
 
-.nlg-logo a, .nlg-logo a:active, .nlg-logo a:visited {
+.nlg-top-logo {
 	position: relative;
 	float: left;
 	display: block;
@@ -95,24 +95,28 @@ pre {
 	background-position: 11px center;
 	background-repeat: no-repeat;
 	z-index: 999;
+	width: 170px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) {
-	.nlg-logo a, .nlg-logo a:active, .nlg-logo a:visited { 
+	.nlg-top-logo { 
 		background-image:url('https://s3-eu-west-1.amazonaws.com/guldencoin.com/logodeveloper@2x.png') !important;
 	}
 }
 
-/* -------------------------------------------------------------- Menu */
-
-.nlg-menu {
+.nlg-top-menu {
 	position: relative;
 	float: left;
 	display: block;
 	margin: 0px 0px 0px 15px;
 }
 
-.nlg-menu a, .nlg-menu a:active, .nlg-menu a:visited {
+.nlg-top-more {
+	float: right;
+	padding-right: 20px;
+}
+
+.nlg-top a, .nlg-top a:active, .nlg-top a:visited {
 	position: relative;
 	float: left;
 	font-size: 100%;
@@ -123,8 +127,15 @@ pre {
 	padding: 0px 15px 0px 15px;
 }
 
-.nlg-menu a:hover {
+.nlg-top a:hover {
 	color: #000;
+}
+
+@media only screen and (max-width: 700px) {
+	.nlg-top-menu {
+		display: none;
+		overflow: hidden;
+	}
 }
 
 nav.navbar {
