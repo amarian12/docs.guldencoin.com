@@ -5,7 +5,7 @@ groups: ['coin']
 groups_weight: 30
 ---
 
-Mining is the process of adding transaction records to Guldencoin's public ledger of past transactions. This ledger of past transactions is called the block chain as it is a chain of blocks. The block chain serves to confirm transactions to the rest of the network as having taken place. Bitcoin nodes use the block chain to distinguish legitimate Bitcoin transactions from attempts to re-spend coins that have already been spent elsewhere. [more info](https://en.bitcoin.it/wiki/Mining)
+Mining is the process of adding transaction records to Guldencoin's public ledger of past transactions. This ledger of past transactions is called the block chain as it is a chain of blocks. The block chain serves to confirm transactions to the rest of the network as having taken place. Guldencoin nodes use the block chain to distinguish legitimate Guldencoin transactions from attempts to re-spend coins that have already been spent elsewhere. [from bitcoin wiki/more info](https://en.bitcoin.it/wiki/Mining)
 
 ## Pools
 
