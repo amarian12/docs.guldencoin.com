@@ -51,7 +51,7 @@ addnode=seed-014.guldencoin.nl
 * Enter "setgenerate true \<cpu\>" with \<cpu\> the amount of cpu's/cores you want to use for mining.
 * Enter "gethashespersec" to see that you are mining.
 
-## GPU mining ##
+## GPU mining
 
 You can also mine with the help of your video/GPU card. This results in higher hashrates compared with CPU mining.
 Here is a list of cards that have been used in guldencoin mining and their optimal settings:
