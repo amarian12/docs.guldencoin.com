@@ -5,6 +5,8 @@ groups: ['coin']
 groups_weight: 30
 ---
 
+Mining is the process of adding transaction records to Guldencoin's public ledger of past transactions. This ledger of past transactions is called the block chain as it is a chain of blocks. The block chain serves to confirm transactions to the rest of the network as having taken place. Guldencoin nodes use the block chain to distinguish legitimate Guldencoin transactions from attempts to re-spend coins that have already been spent elsewhere. [from bitcoin wiki/more info](https://en.bitcoin.it/wiki/Mining)
+
 ## Pools
 
 There are several pools mining NLG. Please keep in mind that MH/s evenly spread between pools results in a safer network.
@@ -50,3 +52,14 @@ addnode=seed-014.guldencoin.nl
 * Go to "Help" -> "Debug screen" -> "Console".
 * Enter "setgenerate true \<cpu\>" with \<cpu\> the amount of cpu's/cores you want to use for mining.
 * Enter "gethashespersec" to see that you are mining.
+
+## GPU mining
+
+You can also mine with the help of your video/GPU card. This results in higher hashrates compared with CPU mining.
+Here is a list of cards that have been used in guldencoin mining and their optimal settings:
+
+| *Card*            | *Hash rate (Kh/s)* | *Settings*                                                 |
+|-------------------|--------------------|------------------------------------------------------------|
+|Radeon HD 5970     | 600 - 850          | `-T --compact -I 17 -g 1 -w 128 --thread-concurrency 8000` |
+|Radeon HD 7950 4gb | 405                | `-T --compact -I 17 -g 1 -w 128 --thread-concurrency 8000` |
+
