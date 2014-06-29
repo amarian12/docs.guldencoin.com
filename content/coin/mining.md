@@ -78,8 +78,9 @@ addnode=seed-014.guldencoin.nl
 You can also mine with the help of your video/GPU card. This results in higher hashrates compared with CPU mining.
 Here is a list of cards that have been used in guldencoin mining and their optimal settings:
 
-| Card              | Hash rate (Kh/s) | Settings                                                 |
-|-------------------|------------------|----------------------------------------------------------|
-|Radeon HD 5970     | 600 - 850        | -T --compact -I 17 -g 1 -w 128 --thread-concurrency 8000 |
-|Radeon HD 7950 4gb | 405              | -T --compact -I 17 -g 1 -w 128 --thread-concurrency 8000 |
+| Card                      | Hash rate (Kh/s) | Settings                                                 |
+|---------------------------|------------------|----------------------------------------------------------|
+|NVIDIA GeForce GTX 750 1Gb | 237              | -i 0 -H 1 -l T4x24                                       |
+|Radeon HD 5970             | 600 - 850        | -T --compact -I 17 -g 1 -w 128 --thread-concurrency 8000 |
+|Radeon HD 7950 4Gb         | 405              | -I 19 -w 256 --thread-concurrency 22400                  |
 
