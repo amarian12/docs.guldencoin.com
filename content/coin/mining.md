@@ -5,6 +5,28 @@ groups: ['coin']
 groups_weight: 30
 ---
 
+## Mining introduction
+
+Guldencoins are created by a process called "mining". A fixed amount of guldencoins (currently 1000 NLG) is awarded to
+the computer that solves a calculation at a specific difficulty. The difficulty is chosen in such way that in average
+the calculation is solved in 2,5 minutes. If more or less computers start calculating, the difficulty becomes higher or
+lower respectively, to keep in the 2,5 minute average time frame for the calculation to be solved. The calculating power
+of the computers in the network is designated in hashes per second.
+
+This "hashes per second" brings us to that calculation that the computers perform. The computers are given a target (at a
+specific difficulty) that the computers should reach by performing a hashing calculation. In the case of Guldencoin, this
+is the scrypt hashing calculation. The computers will send an input into the hashing calculation, which will return a
+result. If this result is better than the target, the input is send to the network and the computer is awarded the
+Guldencoins. If the result is not better than the target, a "nounce" (a counter value) is changed in the input and the
+hash is run again with a new output to be checked.
+
+The input doesn't contain random data or a nounce only, it contains the transactions send to the network. These transactions
+are the payments that shoppers and merchants make when buying and selling goods. By including them into the input data,
+their presence will be part of the output. The input that is send to the network and contains the validated transactions,
+are called blocks. Other computers in the network can validate if the block is legit by recalculating the input and validate
+the output against the difficulty at that time. This way mining stores the transactions in the network.
+
+
 ## Pools
 
 There are several pools mining NLG. Please keep in mind that MH/s evenly spread between pools results in a safer network.
