@@ -22,7 +22,13 @@ Or simply use the [cdn](/services/cdn) to include guldensign.css:
 <link rel="stylesheet" type="text/css" href="//nlgcdn.com/guldensign/1/guldensign.css" />
 {{% /highlight %}}
 
-Make sure to include the guldensign.css as last css include that alters the font-family of elements.
+Then use the guldensign font where you want it to appear:
+
+{{% highlight css %}}
+body {
+	font-family: guldensign, other-font, more-fonts, sans-serif;
+}
+{{% /highlight %}}
 
 These documentation pages (docs.guldencoin.com) have guldensign.css included.
 

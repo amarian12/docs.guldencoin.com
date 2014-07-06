@@ -14,7 +14,7 @@ body {
 
 	/*padding-top: 70px;*/
 	/*letter-spacing: 0.3px;*/
-	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-family: guldensign, "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
 	font-weight: 300;
 
 	overflow-y: scroll;
@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #03386e;
-	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-family: guldensign, "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
 }
 
 p {
@@ -73,7 +73,7 @@ pre {
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
-	font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: guldensign, "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	background-color: #f2f2f2;
 	border-bottom: 1px solid #ddd;
