@@ -5,7 +5,7 @@ groups: ['other']
 groups_weight: 10
 ---
 
-Basically, by including a single css file into any website, the character `{{% html <span style='font-family:Verdana;'>Ġ</span> %}}` is converted to a Guldencoin valuta sign: `Ġ`.
+Basically, by including a single css file into any website, the character <span style='font-family:Verdana;'>Ġ</span> is converted to a Guldencoin valuta sign: `Ġ`.
 
 ## Usage
 
