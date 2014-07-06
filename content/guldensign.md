@@ -19,7 +19,7 @@ To include the guldensign.css file, either download the [latest files](https://g
 Or simply use the [cdn](/services/cdn) to include guldensign.css:
 
 {{% highlight html %}}
-<link href="//nlgcdn.com/guldensign/1/guldensign.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//nlgcdn.com/guldensign/1/guldensign.css" />
 {{% /highlight %}}
 
 Make sure to include the guldensign.css as last css include that alters the font-family of elements.
