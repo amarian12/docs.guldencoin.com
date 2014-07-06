@@ -30,6 +30,14 @@
 					</ul>
 				</li>
 				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+							{{ range $key, $value := .Site.Indexes.groups.other.Pages }}
+							<li hugo-nav="{{$value.RelPermalink}}"><a href="{{$value.Permalink}}"> {{ $value.LinkTitle }} </a> </li>
+							{{ end }}
+					</ul>
+				</li>
+				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Original client <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 							{{ range $key, $value := .Site.Indexes.groups.guldencoind.Pages }}
