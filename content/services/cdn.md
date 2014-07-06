@@ -41,4 +41,8 @@ Example symlinks given the content folders: `1.2.1`, `1.2.2`, `1.2.3`, `2.0.1`, 
 
 The contents of this CDN are selected by the Guldencoin team and community. If you think some content is missing, please open an issue at this repository.
 
- - guldensign [github.com/nlgcoin/guldensign](github.com/nlgcoin/guldensign)
+## guldensign
+
+[More info about guldensign](/guldensign).
+
+[source on github.com/nlgcoin/guldensign](https://github.com/nlgcoin/guldensign)
