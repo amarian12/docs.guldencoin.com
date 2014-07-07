@@ -22,12 +22,18 @@ Or simply use the [cdn](/services/cdn) to include guldensign.css:
 <link rel="stylesheet" type="text/css" href="//nlgcdn.com/guldensign/1/guldensign.css" />
 {{% /highlight %}}
 
-Then use the guldensign font where you want it to appear:
+To display a <span style='font-family:"proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;'>Ġ</span> in your webpage as the guldensign, add `guldensign` as the first option in the font-family in your css. Example:
 
 {{% highlight css %}}
 body {
-	font-family: guldensign, other-font, more-fonts, sans-serif;
+	font-family: guldensign, Arial, Helvetica, sans-serif;
 }
+{{% /highlight %}}
+
+Or, to add a single guldensign as icon, use the class `guldensign`:
+
+{{% highlight html %}}
+<i class="guldensign" ></i>
 {{% /highlight %}}
 
 These documentation pages (docs.guldencoin.com) have guldensign.css included.
