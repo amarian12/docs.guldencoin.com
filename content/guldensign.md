@@ -39,4 +39,4 @@ Overriding the effect (giving you back the original <span style='font-family:"pr
 
 
 ## Credits
-The guldensign font files are created with [fontforge](http://fontforge.org/) and (FontSquirrel's webfont tool](http://www.fontsquirrel.com/tools/webfont-generator).
+The guldensign font files are created with [fontforge](http://fontforge.org/) and [FontSquirrel's webfont tool](http://www.fontsquirrel.com/tools/webfont-generator).
