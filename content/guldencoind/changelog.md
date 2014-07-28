@@ -8,7 +8,7 @@ groups_weight: 80
 This page contains the changelog for the original guldencoin software; guldencoin-qt/guldencoind.
 
 ## version 1.1.7
- - Update seeds (new seed domains naming convention)
+ - Updated seeds (new seed domains naming convention)
  - Add checkpoint
 
 ## version 1.1.6
