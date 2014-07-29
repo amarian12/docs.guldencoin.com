@@ -39,6 +39,7 @@ There are several pools mining NLG. Please keep in mind that MH/s evenly spread 
  - [http://pool.mycryptoco.in](http://pool.mycryptoco.in)
  - [http://dutchpool.org:8000](http://dutchpool.org:8000)
  - [http://dutchpool.org:27100/static](http://dutchpool.org:27100/static)
+ - [http://www.poolminers.tk/](http://www.poolminers.tk/)
 
 ## Solo
 
@@ -88,3 +89,6 @@ Here is a list of cards that have been used in guldencoin mining and their optim
 |Radeon HD 7950 4Gb             | 405                  | `-I 19 -w 256 --thread-concurrency 22400`                  |
 
 
+## Cloud mining
+
+Someone needs to investigate this and report how to do this.
