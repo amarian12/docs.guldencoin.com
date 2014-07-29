@@ -33,12 +33,10 @@ the output against the difficulty at that time. This way mining stores the trans
 
 There are several pools mining NLG. Please keep in mind that MH/s evenly spread between pools results in a safer network.
 
- - [http://nlg.criptoe.com](http://nlg.criptoe.com)
+ - [http://criptoe.com/](CripToe.com)
  - [https://nlg.hardcoreminers.com](https://nlg.hardcoreminers.com)
  - [http://gulden.p2p.0x0a.nl:27100](http://gulden.p2p.0x0a.nl:27100)
  - [http://pool.mycryptoco.in](http://pool.mycryptoco.in)
- - [http://dutchpool.org:8000](http://dutchpool.org:8000)
- - [http://dutchpool.org:27100/static](http://dutchpool.org:27100/static)
  - [http://www.poolminers.tk/](http://www.poolminers.tk/)
 
 ## Solo
@@ -90,5 +88,8 @@ Here is a list of cards that have been used in guldencoin mining and their optim
 
 
 ## Cloud mining
+
+Cloud mining is mining on rented mining equipment via the internet. You don't need to buy hardware and provide electricity, but
+just pay someone to run the mining software on their hardware. Mined coins are creditted to the address you provided.
 
 Someone needs to investigate this and report how to do this.
