@@ -1,6 +1,6 @@
 ---
-title: "Forking"
-date: "2014-08-02
+title: "Forks"
+date: "2014-08-02"
 groups: ['nlgd']
 groups_weight: 10
 ---
@@ -40,3 +40,9 @@ TODO: Some information about KGW.
 
 The upstream changes are merged down regularly.
 When we fix or add something that we think could be a benefit for the btc* project, we will create a pull request containing the additions at their repo.
+
+### Package list
+These are the packages that are forked and the package that they're forked from:
+ - [nlgec](https://github.com/nlgcoin/nlgec) (forked from [btcec](https://github.com/conformal/btcec))
+
+
