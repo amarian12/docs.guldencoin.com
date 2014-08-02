@@ -19,6 +19,7 @@ Several changes are made to the Guldencoin versions of the btc* packages.
 
 ### Credits
 Adding following notice to the README.md files of forked repo's:
+
 ```
 ### Credits
 
@@ -27,6 +28,7 @@ This repository is forked from [conformal/<btc*>](https://github.com/conformal/<
 
 ### Branding
 Find/replace's in documentation and code:
+
  - 'btc' > 'nlg'
  - 'bitcoin' > 'guldencoin'
 
@@ -43,6 +45,7 @@ When we fix or add something that we think could be a benefit for the btc* proje
 
 ## Package list
 These are the packages that are forked and the package that they're forked from:
+
  - [nlgec](https://github.com/nlgcoin/nlgec) (forked from [btcec](https://github.com/conformal/btcec))
 
 
