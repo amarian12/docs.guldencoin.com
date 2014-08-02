@@ -13,11 +13,11 @@ Read about btcd project at conformal's blog: [https://blog.conformal.com/categor
 
 The goal of the nlg forks is to provide nlg-compatible Go packages and commands, while tracking upstream for changes.
 
-### Changes
+## Changes
 
 Several changes are made to the Guldencoin versions of the btc* packages.
 
-#### Credits
+### Credits
 Adding following notice to the README.md files of forked repo's:
 ```
 ### Credits
@@ -25,23 +25,23 @@ Adding following notice to the README.md files of forked repo's:
 This repository is forked from [conformal/<btc*>](https://github.com/conformal/<btc*>) and changed to work with the Guldencoin network.
 ```
 
-#### Branding
+### Branding
 Find/replace's in documentation and code:
  - 'btc' > 'nlg'
  - 'bitcoin' > 'guldencoin'
 
-#### Scrypt
+### Scrypt
 TODO: Some information about script.
 
-#### KGW
+### KGW
 TODO: Some information about KGW.
 
-### Upstream tracking
+## Upstream tracking
 
 The upstream changes are merged down regularly.
 When we fix or add something that we think could be a benefit for the btc* project, we will create a pull request containing the additions at their repo.
 
-### Package list
+## Package list
 These are the packages that are forked and the package that they're forked from:
  - [nlgec](https://github.com/nlgcoin/nlgec) (forked from [btcec](https://github.com/conformal/btcec))
 
