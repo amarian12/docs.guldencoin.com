@@ -5,7 +5,7 @@ groups: ['other']
 groups_weight: 10
 ---
 
-Ever seen those 'nice' addresses that start with a recognizable prefix? For instance ``, the address for Developer Geert-Johan.
+Ever seen those 'nice' addresses that start with a recognizable prefix? For instance the addresses used at satoshi dice and nlgcup.com?
 You can generate such an address for yourself! With a little tool called 'vanitygen'.
 
 This page describes how to do this. It's assumed that you have some knowledge of the commandline.
