@@ -5,7 +5,7 @@ groups: ['other']
 groups_weight: 10
 ---
 
-Ever seen those 'nice' addresses that start with a recognizable text?
+Ever seen those 'nice' addresses that start with a recognizable prefix? For instance ``, the address for Developer Geert-Johan.
 You can generate such an address for yourself! With a little tool called 'vanitygen'.
 
 This page describes how to do this. It's assumed that you have some knowledge of the commandline.
@@ -54,3 +54,15 @@ Copy the key and open your desktop wallet (guldencoin-qt) application. In the me
 
 If everything went well, your key has now been added to your wallet. You can now receive on the nice address.
 Make sure to test the address before you send any real sums of coins to it. You don't want to lose coins because of a copy-paste mistake..
+
+
+**Calculation time**
+
+Finding a private key which address matches the prefix you want is hard work. It's actually brute-forcing. Generating new private keys at random and checking if they match. The work is somewhat the same as mining.. The duration of finding one address depends on the length of the prefix you require and the power of your hardware. Vanitygen will display a duration estimage. When it sais it'll take weeks or months to find an addres, don't even try.. It's very likely that it WILL take weeks or months, unless you're really really lucky. The best solution is to shorten the prefix you're trying to find.
+
+
+**Characterset**
+
+Not all characters are available, this is due to the encoding of the addresses.
+https://en.bitcoin.it/wiki/Base58Check_encoding
+
