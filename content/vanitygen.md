@@ -20,18 +20,15 @@ First of all, clone the [samr7/vanitygen](https://github.com/samr7/vanitygen) re
 
 cd into the directory and build the tool
 
-```
-cd vanitygen
-make vanitygen
-```
+`cd vanitygen`
+
+`make vanitygen`
 
 Now you have built the basic vanity address generator that utilizes the CPU to finds an address.
 
 If hou have a good GPU, you might want to use `oclvanitygen`. To compile that run the command:
 
-```
-make oclvanitygen
-```
+`make oclvanitygen`
 
 `oclvanitygen` uses openCL and the GPU to find an address. This is way faster then the normal vanitygen.
 
