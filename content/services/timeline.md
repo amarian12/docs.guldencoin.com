@@ -1,5 +1,5 @@
 ---
-title: "timeline"
+title: "Timeline"
 date: "2014-08-15"
 groups: ['services']
 groups_weight: 50
