@@ -26,6 +26,7 @@ There are several pools mining NLG. Please keep in mind that MH/s evenly spread 
  - [http://pool.mycryptoco.in](http://pool.mycryptoco.in)
  - [Dutchpool.org](http://dutchpool.org/)
  - [http://www.poolminers.tk/](http://www.poolminers.tk/)
+ - [Dutchminingpools.com](http://guldencoin.dutchminingpools.com/)
 
 ## Solo
 
