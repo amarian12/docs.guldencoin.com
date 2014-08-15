@@ -11,7 +11,8 @@ You can generate such an address for yourself! With a little tool called 'vanity
 This page describes how to do this. It's assumed that you have some knowledge of the commandline.
 This tutorial is for linux.
 
-**Install**
+
+**Installation**
 
 First of all, clone the [samr7/vanitygen](https://github.com/samr7/vanitygen) repository from github:
 
@@ -34,6 +35,8 @@ make oclvanitygen
 
 `oclvanitygen` uses openCL and the GPU to find an address. This is way faster then the normal vanitygen.
 
+
+**Usage**
 
 Now, lets find a Guldencoin address. You must run vanitygen with the `-X 38` parameter to get an address that works in the Guldencoin network.
 
