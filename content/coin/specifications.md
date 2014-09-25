@@ -25,9 +25,11 @@ A main and test network are established. The test network can be used to develop
  - port: `9231`
  - rpc port: `9232`
  - genesis block: `6c5d71a461b5bff6742bb62e5be53978b8dec5103ce52d1aaab8c6a251582f92`
- - protocol magic: `0xfb, 0xc0, 0xb6, 0xdb`
+ - protocol magic: `0xfc, 0xfe, 0xf7, 0xe0`
+ - protocol magic before v1.3: `0xfb, 0xc0, 0xb6, 0xdb` (old)
 
 ### Test net
  - port: `9923`
  - genesis block: `f1fe2c7e57300c65ed0e4905ca5f74192a3e1feea209c4fcc2c60df024121a05`
- - protocol magic: `0xfc, 0xc1, 0xb7, 0xdc`
+ - protocol magic: `0xfc, 0xfe, 0xf7, 0x00`
+ - protocol magic before v1.3: `0xfc, 0xc1, 0xb7, 0xdc` (old)
