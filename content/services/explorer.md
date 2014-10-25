@@ -1,6 +1,6 @@
 ---
 title: "Explorer"
-date: "2014-08-15"
+date: "2014-10-25"
 groups: ['services']
 groups_weight: 60
 ---
@@ -25,7 +25,7 @@ The simple api services return data in plain text format.
 The blockreward service returns the current blockreward following the [formula defined in the original client](https://github.com/nlgcoin/guldencoin/blob/767556cba8ed353fed74d7f3b343ae6815429026/src/main.cpp#L1066-L1078).
 
 #### Total coins
-`/sapi/totalcoins` [View](https://explorer.guldencoin.com/sapi/totalcoin)
+`/sapi/totalcoins` [View](https://explorer.guldencoin.com/sapi/totalcoins)
 
 The totalcoins service returns the current number of coins in circulation. This number is calculated every time a new block is mined. The service combines three sources:
 
