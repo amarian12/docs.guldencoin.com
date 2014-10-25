@@ -17,7 +17,7 @@ Please note that the explorer is currently in Beta.<br/>
 API's are still in development. Some simple api's are available.
 
 ### Simple API's
-The simple api services return data in plain text format.
+The simple api services return data in plain text format. Coin values are returned in the number of satoshi.
 
 #### Block reward
 `/sapi/blockreward` [View](https://explorer.guldencoin.com/sapi/blockreward)
