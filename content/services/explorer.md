@@ -27,7 +27,16 @@ The blockreward service returns the current blockreward following the [formula d
 #### Total coins
 `/sapi/totalcoins` [View](https://explorer.guldencoin.com/sapi/totalcoins)
 
-The totalcoins service returns the current number of coins in circulation. This number is calculated every time a new block is mined. The service combines three sources:
+The totalcoins service returns the current number of coins in circulation. This number is calculated every time a new block is mined.
+
+The services can be called with a `type` parameter:
+
+ - `/sapi/totalcoins?type=available` (*default*, see explanation below)
+ - `/sapi/totalcoins?type=mined` (only mined block rewards total, excluding premine)
+ - `/sapi/totalcoins?type=all` (all coins; complete premine + mined block rewards)
+
+When no type is given, the service defaults to `available` as it is the most accurate representation of the coins actually available in the network.
+This number is calculated by combining the following resources:
 
  - Mined coins (excluding premine)
  - Coins distributed among dutch citizens
